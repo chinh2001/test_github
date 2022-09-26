@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    border: 10px dashed #333;
+    /* background: url(https://c1.staticflickr.com/5/4781/38890377240_21aced088a_h.jpg) no-repeat center;
+    background-size: cover;
+    background-origin: border-box; */
+}
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.content::first-letter {
+    font-weight: bold;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.classUl:hover {
+    display: none;
+}
